@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name        Healthline.com Dark
+@namespace   coinfreakgr
+@version     0.1
+@homepageURL https://github.com/coinfreakgr/healthline.com-dark/
+@updateURL   https://raw.githubusercontent.com/coinfreakgr/healthline.com-dark/master/usercss.css
+@license     CC-BY-SA-4.0
+@author      coinfreakgr
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.healthline.com") {
+
+
+body { /*inverting colors*/
+   -webkit-filter: invert(1);
+   filter: invert(1);
+    background-color:#fff;
+    color: #020202;
+   }
+img  { /*getting normal image color back */
+   -webkit-filter: invert(1) !important;
+   filter: invert(1) !important;
+   }
+
+.css-198we43{ /*background color quickfix*/
+   background-color:#fff;
+   }
+
+.css-r7r0mt > .button-wrapper > .button   {
+   /*sharing widget color quickfix*/
+   color:#000;
+   background-color:#fff;
+   border: 1px solid #fff;
+   }
+
+ .css-r7r0mt > .button-wrapper > .button:hover   {
+   /*hover color for above widget*/
+   color:#F0533A;}
+
+
+
+}
