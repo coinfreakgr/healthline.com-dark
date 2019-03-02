@@ -1,11 +1,13 @@
 /* ==UserStyle==
 @name        Healthline.com Dark
 @namespace   coinfreakgr
+@description A dark theme fHealthline.com
 @version     0.1
 @homepageURL https://github.com/coinfreakgr/healthline.com-dark/
 @updateURL   https://raw.githubusercontent.com/coinfreakgr/healthline.com-dark/master/usercss.css
 @license     CC-BY-SA-4.0
 @author      coinfreakgr
+@preprocessor stylus
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.healthline.com") {
